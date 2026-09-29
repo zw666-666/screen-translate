@@ -1,0 +1,31 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials, settings, and logs
+.env
+.env.*
+config.json
+deepseek_key.txt
+*.key
+*.pem
+*.p12
+*.pfx
+*.sqlite*
+*.db*
+*.log
+
+# Local shortcuts and generated output
+*.lnk
+build/
+dist/
+release/
+发布/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
